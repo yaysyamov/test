@@ -87,7 +87,7 @@
             <ATTRIBUTE NAME ="Reject filename" VALUE ="emp_target_ins1.bad"/>
         </SESSIONEXTENSION>
         <SESSIONEXTENSION NAME ="Relational Writer" SINSTANCENAME ="EMP_TARGET_UPD" SUBTYPE ="Relational Writer" TRANSFORMATIONTYPE ="Target Definition" TYPE ="WRITER">
-            <CONNECTIONREFERENCE CNXREFNAME ="DB Connection" CONNECTIONNAME ="STD11" CONNECTIONNUMBER ="1" CONNECTIONSUBTYPE ="Oracle" CONNECTIONTYPE ="Relational" VARIABLE =""/>
+            <CONNECTIONREFERENCE CNXREFNAME ="DB Connection" CONNECTIONNAME ="STD10" CONNECTIONNUMBER ="1" CONNECTIONSUBTYPE ="Oracle" CONNECTIONTYPE ="Relational" VARIABLE =""/>
             <ATTRIBUTE NAME ="Target load type" VALUE ="Bulk"/>
             <ATTRIBUTE NAME ="Insert" VALUE ="YES"/>
             <ATTRIBUTE NAME ="Update as Update" VALUE ="YES"/>
